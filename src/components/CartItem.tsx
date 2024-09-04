@@ -45,7 +45,7 @@ const CartItem = ({ item, dispatch, REDUCER_ACTIONS }: PropsType) => {
         <p aria-label="Product-name">{item.name}</p>
       </div>
       <div aria-label="product-info" className="product-info">
-        <p>{item.price}</p>
+        <p>{formatCurrency(item.price)}</p>
         <select name="qty" value={item.qty} onChange={handleQty}>
           {optionEl}
         </select>
