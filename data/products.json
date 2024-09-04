@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "sku": "item0001",
+            "name": "Widget",
+            "price": 1400
+        },
+        {
+            "sku": "item0002",
+            "name": "Premium Widget",
+            "price": 4500
+        },
+        {
+            "sku": "item0003",
+            "name": "Deluxe Widget",
+            "price": 5500
+        }
+    ]
+}
